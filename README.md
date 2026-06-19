@@ -10,3 +10,8 @@ changes flow for pushing
 
 practice
 verify my next line
+
+**commands**
+git add -A
+git commit -m "some message"
+git push
