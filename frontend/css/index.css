@@ -8,10 +8,34 @@ h1{
     color:orange;
 }
 .para{
-    border: 2px;
-    border-color: black;
+    border: 3px;
+    border-color: green;
     border-style: solid;
     padding: 10px;
-    text-align: center;
+    background-color: lightgray;
 
+}
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    background-color: red;
+    text-align: center;
+    border-color: green;
+    border-style: solid;
+}
+.navbar a{
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: rgb(217, 181, 181);
+    color: blue;
+    text-decoration: none;
+
+}
+body{
+    margin: 0;
 }
