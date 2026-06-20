@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Home</title>
+    <title>Toggle</title>
     <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
@@ -13,7 +13,15 @@
     <a href="/pages/randomuser.html">Random User</a>
 </div>
 
-<h1>Welcome to User App</h1>
+<div class="card">
+    <img id="userImage" src="/images/john.png" width="200">
+    <h2 id="userName">John Doe</h2>
+    <p id="userGender">Male</p>
+
+    <button onclick="toggleUser()">Toggle</button>
+</div>
+
+<script src="/js/index.js"></script>
 
 </body>
 </html>
